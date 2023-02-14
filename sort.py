@@ -38,10 +38,10 @@ def main():
             string = (listToString(new_list))
             print(type(string),":", string)
             
-            API_KEY = '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'
+            API_KEY = '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'
             openai.api_key = API_KEY
             model = 'text-davinci-003'
-            prompt = "randomly rank each item from most to least important. return it as a dict type with "" "+ string
+            prompt = "randomly rank each item from most to least important. return it as a dict type using "" "+ string
             response = openai.Completion.create(
                 prompt = prompt,
                 model = model,
