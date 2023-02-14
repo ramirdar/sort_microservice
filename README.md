@@ -2,7 +2,8 @@
 
 Clear instructions for how to REQUEST data from the microservice you implemented. Include an example call.
 
-To request data, you need to enter a dict type into the checklist json file. What will be sorted is the keys inside the dict. 
+To request data, you need to enter a dict type into the checklist json file. 
+What will be sorted is the keys inside the dict. 
 Ex: dict = {
     "do homework": "",
     "school": "",
