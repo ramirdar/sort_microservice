@@ -15,13 +15,13 @@ def listToString(s):
 def main():
     while True:
         #if file is empty do not conitnue
-        if os.path.getsize('/Users/darlita/CS361/PM/checklist.json') == 0:
+        if os.path.getsize('checklist.json') == 0:
             print("File is empty!")
             break
 
         else:
             #open file contents
-            sort_file = open('/Users/darlita/CS361/PM/checklist.json','r')
+            sort_file = open('checklist.json','r')
             txt1 = json.load(sort_file)
             sort_file.close()
 
@@ -57,7 +57,7 @@ def main():
                 openai_result = result.text
                 
                 
-                file = open('/Users/darlita/CS361/PM/sort_file.json','w+')
+                file = open('sort_file.json','w+')
                 file.write(openai_result)
                 file.close()
                 print(type(openai_result),";", openai_result)
