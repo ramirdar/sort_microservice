@@ -1,5 +1,5 @@
 {
-    "do homework": "",
-    "go to school": "",
-    "take shower": ""
+    "checklist": "do homework",
+    "checklist ": "go to school",
+    " checklist": "take shower"
   }
