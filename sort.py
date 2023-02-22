@@ -5,7 +5,7 @@ import os
 
 
 def dictToList(d):
-    return list(d.keys())
+    return list(d.values())
             
 
 def listToString(s):
